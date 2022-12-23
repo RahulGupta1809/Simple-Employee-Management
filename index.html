@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Employee Management</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div id="headercontainer">
+        <img src="./images (3).png" alt="MyLogo" title="Logo" width="64" height="64">
+        <h2>Employee Management</h2>
+    </div>
+    <hr>
+    <!-- button for Navigation -->
+    <div id="buttonContainer">
+        <button onclick="tabpanel(0)">Home</button>
+        <button onclick="tabpanel(1)">Add</button>
+    </div>
+    <hr>
+
+    <div class="parentcontainer">
+        <div class="empdetailscontainer">
+            <div class="sub-container">
+                <h4 class="items">Name : Ravi Kumar</h4>
+                <h4 class="items">Role : Senior Softwar Dev</h4>
+                <h4 class="items">Mobile: +91-1234567890</h4>
+            </div>
+            <div class="sub-container">
+                <h4 class="items">Manager : Ravi Kumar</h4>
+                <h4 class="items">Office : Banglore</h4>
+                <h4 class="items">Joinning Date : 12 April 21 (1 month ago )</h4>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <!-- Second button content -->
+    <div class="formcontainer">
+        <form id="myform">
+            <table border="0">
+                <tr>
+                    <td> Name </td>
+                    <td> <input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td> Role </td>
+                    <td> <input type="text" name="role"></td>
+                </tr>
+                <tr>
+                    <td> Mobile </td>
+                    <td> <input type="text" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td> Manager </td>
+                    <td> <input type="text" name="manager"></td>
+                </tr>
+                <tr>
+                    <td> Office </td>
+                    <td> <input type="text" name="office"></td>
+                </tr>
+                <tr>
+                    <td> Joinning Date </td>
+                    <td> <input type="text" name="joindate"></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> <input type="submit" id="submitbutton"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+
+
+    <!-- script here -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
