@@ -104,7 +104,6 @@ function tabpanel(index) {
     formcontainer.style.display = "block";
   }
 }
-
 document.addEventListener("DOMContentLoaded", () => {
   getData();
   tabpanel(0);
@@ -114,3 +113,4 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("close", () => {
   localStorage.removeItem("emplist");
 });
+
